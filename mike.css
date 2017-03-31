@@ -1,3 +1,104 @@
 header {
   text-align: right;
 }
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  margin-left: 10px;
+}
+
+a {
+  margin-left: 15px
+}
+
+.leader
+{
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  }
+
+.ursule {
+  text-align: center;
+  padding: 50px 50px 10px 50px;
+}
+
+.entete {
+display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 2px;
+  color: black;
+  font-size: 18px;
+  margin-left: 83px;
+  padding: 1px 1px 1px 1px;
+}
+
+.buttongroup {
+  margin-left: 332px;
+  margin-right: 300px;
+  padding: 1px 1px 1px 1px;
+}
+
+.button1 {
+  margin-right: 10px;
+  background-color: #F4F4F4;
+  border: 2px solid #C6C6C6;
+}
+
+.button2 {
+  margin-left: -41px;
+  background-color: #F4F4F4;
+  border: 2px solid #C6C6C6;
+  }
+
+.hector {
+text-align: center;
+}
+
+.echo {
+  display: inline-block;
+  margin-left: auto;
+  text-align: left;
+  width: 677px;
+  bottom: 0;
+  position: absolute;
+}
+
+.zoulou {
+  display: inline-block;
+  margin-right: auto;
+  text-align: right;
+  width: 1354px;
+  bottom: 0;
+  position: absolute;
+}
+
+.bas {
+  display:inline-block;
+}
